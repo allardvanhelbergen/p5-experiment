@@ -1,8 +1,12 @@
-function setup() {
-  createCanvas(640, 480);
-}
+// Stylesheets
+require('../scss/index.scss');
 
-function draw() {
+
+window.setup = () => {
+  createCanvas(640, 400);
+};
+
+window.draw = () => {
   if (mouseIsPressed) {
     fill(0);
   } else {
@@ -10,4 +14,4 @@ function draw() {
   }
   ellipse(mouseX, mouseY, 80, 80);
   console.log(frameRate());
-}
+};
