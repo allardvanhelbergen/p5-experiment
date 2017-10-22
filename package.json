@@ -1,0 +1,7 @@
+{
+  "name": "p5-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Allard van Helbergen <allard@vanhelbergen.com>",
+  "license": "MIT"
+}
