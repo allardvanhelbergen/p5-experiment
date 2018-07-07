@@ -1,37 +1,31 @@
 {
   "name": "p5-experiment",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Allard van Helbergen <allard@vanhelbergen.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --progress --colors",
-    "lint": "yarn lint-js && yarn lint-sass",
-    "lint-js": "eslint src; exit 0",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "lint": "eslint src; exit 0",
     "lint-js-print-config": "eslint --print-config",
-    "lint-sass": "sass-lint --verbose --no-exit",
-    "start": "webpack-dev-server --progress --colors --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-airbnb": "^2.4.0",
-    "babel-preset-env": "^1.6.1",
-    "clean-webpack-plugin": "^0.1.17",
-    "copy-webpack-plugin": "^4.2.0",
-    "css-loader": "^0.28.7",
+    "gatsby": "^1.9.273",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "p5": "^0.6.1",
+    "react-helmet": "^5.2.0",
+    "react-p5-wrapper": "^0.0.4"
+  },
+  "devDependencies": {
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-p5js": "^1.0.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "html-webpack-plugin": "^2.30.1",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.19.0",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.3"
+    "prettier": "^1.12.0"
   }
 }

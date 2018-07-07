@@ -1,6 +1,10 @@
 *.iml
 *.idea
+.cache
 .DS_Store
-public/
+
+yarn-error.log
+
 dist/
 node_modules/
+public/
