@@ -18,10 +18,16 @@ const IndexPage = () => (
       <Link to='/square-spiral-left-corner'>Square Spiral Left Corner</Link>
     </li>
     <li>
-      <Link to='/square-spiral-left-corner'>Square Spiral Left Corner</Link>
+      <Link to='/square-spiral-centre-top-edge'>Square Spiral Center Top Edge</Link>
     </li>
     <li>
-      <Link to='/square-spiral-centre-top-edge'>Square Spiral Center Top Edge</Link>
+      <Link to='/seed-of-life'>Seed of Life</Link>
+    </li>
+    <li>
+      <Link to='/flower-of-life'>Flower of Life</Link>
+    </li>
+    <li>
+      <Link to='/flower-of-life-extended'>Flower of Life Extended</Link>
     </li>
   </ul>
 );
